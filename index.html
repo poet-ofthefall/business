@@ -324,11 +324,11 @@
                 <div class="touch__left">
                     <h3 class="touch__title title-sm">Get in touch</h3>
                     <p class="touch__subtitle subtitle-sm">we are more interested in your thoughts</p>
-                    <form action="" class="touch__form">
-                        <input class="touch__input" type="text" placeholder="Your Full Name">
-                        <input class="touch__input" type="text" placeholder="Your Email Address">
-                        <input class="touch__input touch__message" type="text" placeholder="Your Message">
-                        <button class="btn touch__btn">Send</button>
+                    <form action="sender.php" method="post" class="touch__form">
+                        <input class="touch__input" type="text" placeholder="Your Full Name" name="name" required>
+                        <input class="touch__input email" type="text" placeholder="Your Email Address" name="email" required>
+                        <input class="touch__input touch__message" type="text" placeholder="Your Message" name="message" required>
+                        <button type="button" class="btn touch__btn">Send</button>
                     </form>
                 </div>
             </div>
@@ -455,6 +455,9 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 
