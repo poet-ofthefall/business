@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
      
-     $(".email").mask("9999999@999.99"); 
+     $(".phone").mask(""); 
     
    
     jQuery('.send-form').click( function() {

@@ -780,6 +780,9 @@
   line-height: 15px;
   color: #828282;
 }
+.touch__input.error {
+  border-color: red;
+}
 .touch__message {
   min-height: 156px !important;
 }
@@ -1057,6 +1060,9 @@ body {
   line-height: 140%;
   color: #333;
   overflow-x: hidden;
+}
+label.error {
+  display: none !important;
 }
 .container {
   margin: 0 auto;
