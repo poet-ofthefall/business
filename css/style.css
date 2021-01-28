@@ -522,6 +522,9 @@
   .extra__subtitle {
     margin-bottom: 40px;
   }
+  .swiper-container-2 {
+    max-height: 540px;
+  }
 }
 @media (max-width: 1300px) {
   .extra {
@@ -545,6 +548,21 @@
   }
   .swiper-button-prev {
     left: 100px;
+  }
+}
+@media (max-width: 491px) {
+  .swiper-container-2 {
+    max-height: 430px;
+  }
+  .swiper-container {
+    max-height: 355px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    bottom: 14px;
+  }
+  .swiper-pagination {
+    bottom: 14px !important;
   }
 }
 @media (max-width: 490px) {
@@ -714,7 +732,7 @@
     align-items: center;
   }
   .believe__title {
-    text-align: center;
+    text-align: center !important;
   }
   .believe__subtitle {
     text-align: center;
